@@ -1,4 +1,4 @@
-# Aula4
+# Aula 4
 Resolução da lista de exercícios (Variáveis, Constantes e Operadores Aritméticos) do dia 08/03/22.
 
 Fáceis
