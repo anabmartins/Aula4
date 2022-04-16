@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="catalago.css">
+</head>
+<body layout="column">
+
+    <!-- Com base no valor de um produto e a quantidade, 
+    mostre o valor total dos produtos; -->
+
+<header>Loja de Maquiagem</header>
+
+<div class="container" layout>
+    <h1 class="produtos">Produtos</h1>
+    <br>
+    <ul>
+    <label id="batom">
+    <h2>Batom</h2>
+    <img src="./img/batom.jpg">
+    <br>
+   <p>Unidade</p><del>R$19,90 </del><ins> R$9,90</ins>
+    <p>Quantidade</p>
+    <input type="number" id="quantidade"/>
+    <br>
+    <button id="botao" onclick="calcularBatom()">Adicionar</button>
+   <br><br>
+    <p>Preço:</p>
+    <input type="number" id="valor" readonly>
+</label>
+</ul>
+</div>
+
+    <script src = "catalago.js"></script>
+
+</body>
+</html>
+
