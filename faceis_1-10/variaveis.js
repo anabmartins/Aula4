@@ -12,15 +12,16 @@ var comida4 = "arroz";
 var comida5 = "maçã";
 
 //Crie 4 variáveis, 2 com nome e 2 com sobrenome. 
-//Mostre ao usuário os nomes com seus sobrenomes;
 var nome1 = "Maria";
 var nome2 = "Cristina";
 var sobrenome1 = "Silva";
 var sobrenome2 = "Castro";
+
+//Mostre ao usuário os nomes com seus sobrenomes;
 console.log(nome1, sobrenome1);
 console.log(nome2, sobrenome2);
 
-//Crie 6 variáveis booleanas. 
+//Crie 6 variáveis booleanas 
 //Usando o padrão “is+verbo”
 var isEntrar = true;
 var isLogar = false;
@@ -53,25 +54,32 @@ const diferenca = n1 - n2;
 const divisao = n3 / n1;
 
 //Multiplique duas variáveis numéricas:
-const Multiplique = n5 * n2;
+const multiplicacao = n5 * n2;
 
-//Mostre o resto da divisão inteira de um número;
+//Mostre o resto da divisão inteira de um número:
 num1 = Math.floor(78)
 num2 = Math.floor(5)
 resto = num1 % num2;
 console.log(resto)
 
-
+//Difíceis - teste
+//Com base em um número informado pelo usuário, informe ao usuário 5% do valor:
 function Converter() {
     var valor = document.getElementById("valor").value;
     alert(parseFloat(valor) * 0.05 + " é 5% do valor informado!");
 }
+
+//Calcule a raiz quadrada de um número:
 var r9 = Math.sqrt(9);
 var ra2 = Math.sqrt(2);
 console.log(r9);
 console.log(ra2);
-var p5 = Math.pow(7, 2);
-console.log(p5);
+
+//Calcule a potenciação informando a base e o expoente:
+var potencia = Math.pow(7, 2);
+console.log(potencia);
+
+//Crie 4 variáveis e mostre ao usuário a soma dos totais de caracteres:
 var num1 = 7;
 var num2 = 8.5;
 var num3 = 22;
